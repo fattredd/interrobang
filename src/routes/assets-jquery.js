@@ -1,11 +1,11 @@
-const assetPath = require('./asset-path');
+const assetPath = require("./asset-path");
 
 module.exports = {
-  method: 'GET',
-  path: '/assets/jquery/{splat*}',
+  method: "GET",
+  path: "/assets/jquery/{splat*}",
   handler: {
     directory: {
-      path: assetPath('jquery', '/')
+      path: assetPath("jquery", "/dist")
     }
   }
 };

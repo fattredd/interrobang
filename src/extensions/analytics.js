@@ -7,7 +7,8 @@ const {
   isEqual,
   isEmpty,
   isString,
-  isArray
+  isArray,
+  includes
 } = require("lodash");
 const ua = require("universal-analytics");
 const uuid = require("uuid/v4");

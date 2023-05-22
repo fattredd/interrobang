@@ -26,7 +26,7 @@
   },
   "betterScripts": {
     "start:development": {
-      "command": "nodemon src/index.js",
+      "command": "nodemon --watch src/ src/index.js",
       "env": {
         "NODE_ENV": "development"
       }

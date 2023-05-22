@@ -117,10 +117,13 @@ class Layout extends React.Component {
             content="/assets/favicon/mstile-310x310.png"
           />
 
-          <link rel="stylesheet" href="/style/css/bootstrap.min.css" />
           <link
             rel="stylesheet"
-            href="/style/css/materialdesignicons.min.css"
+            href="/assets/bootstrap/css/bootstrap.min.css"
+          />
+          <link
+            rel="stylesheet"
+            href="/assets/mdi/css/materialdesignicons.min.css"
           />
 
           <link rel="stylesheet" href="/assets/css/style.css" />
@@ -137,11 +140,8 @@ class Layout extends React.Component {
           </If>
         </head>
         <body>
-          <script
-            src="https://code.jquery.com/jquery-1.12.4.min.js"
-            crossOrigin="anonymous"
-          />
-          <script src="/style/js/bootstrap.bundle.js" />
+          <script src="/assets/jquery/jquery.min.js" crossOrigin="anonymous" />
+          <script src="/assets/bootstrap/js/bootstrap.min.js" />
           <script src="/assets/scrollpos-styler/scrollPosStyler.js" />
 
           <NavBar
